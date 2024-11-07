@@ -21,7 +21,7 @@ function App() {
       {/* <h1>Hello World</h1> */}
       <ul>
         {users.map((user) => (
-          <li key={user.id}>{`Username: ${user.name}, Username: ${user.username}`}</li>
+          <li key={user.id}>{`Name: ${user.name}, Username: ${user.username}`}</li>
         ))}
       </ul>
     </>
